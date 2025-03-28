@@ -8,5 +8,11 @@ since the matrix is too large, I cannot push it to git. instead, use the code be
     data_matrix = df.pivot(index='u_id', columns='a_id', values='score').fillna(0)
     data_matrix = data_matrix.values
 ```
-find user id of the row i using 'user_id = data_matrix.index[i]'
-find anime id of the row j using 'anime_id = data_matrix.columns[i]'
+find user id of the row i using 
+```python
+user_id = data_matrix.index[i]
+```
+find anime id of the row j using 
+```python
+anime_id = data_matrix.columns[i]
+```
