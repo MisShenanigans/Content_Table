@@ -7,6 +7,15 @@ since the matrix is too large, I cannot push it to git. instead, use the code be
     df = pd.read_csv("data/final_data.csv")
     data_matrix = df.pivot(index='u_id', columns='a_id', values='score').fillna(0)
 ```
+
+print the row i of matrix 
+'''python
+print(data_matrix.iloc[i])
+'''
+print the column i of matrix 
+'''python
+print(data_matrix.iloc[:, 1])
+'''
 find user id of the row i using 
 ```python
 user_id = data_matrix.index[i]
