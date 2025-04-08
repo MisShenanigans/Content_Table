@@ -1,3 +1,5 @@
 original_data/
 .DS_Store
 data.ipynb
+.ipynb_checkpoints/
+data/.ipynb_checkpoints/
