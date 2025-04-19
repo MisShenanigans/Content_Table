@@ -69,5 +69,5 @@ This project blends **convex optimization theory**, **linear algebra**, and **ma
 We hope this serves as a resource and inspiration for others interested in bridging applied mathematics and pop culture media.
 
 
-
+## Special Thanks
 ![](image.png)
