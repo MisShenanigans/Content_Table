@@ -25,7 +25,6 @@ The dataset was derived from [MyAnimeList on Kaggle](https://www.kaggle.com/data
 | `main_recommender.ipynb`         | Demonstration notebook that shows how to train each model and generate top-N anime recommendations for specific users. |
 | `main_compare_models.ipynb`      | Evaluation notebook that compares models by computing **RMSE on a held-out test set** using the split datasets. |
 | `data`                           | Training dataset, downloaded and derived from MyAnimeList. |
-| `models`                         | Implementation progress files for each indivdiaul models and . |
 | `README.md`                      | Project overview, model summaries, instructions, and credits (this file). |
 
 
